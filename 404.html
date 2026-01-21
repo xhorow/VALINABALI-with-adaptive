@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Страница не найдена - Valinabali</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__content">
+				<a class="header__logo-link" href="#" aria-label="Ссылка на главную страницу">
+					<img class="header__logo" src="images/logo-black.webp" srcset="images/logo-black@2x.webp"
+						alt="Логотип компании" width="140" height="40">
+				</a>
+				<div class="header__btn-wrapper">
+					<a class="header__favorites" href="#" aria-label="Ссылка на страницу избранное">
+						<svg class="header__favorites-icon" width="22" height="20" aria-hidden="true">
+							<use xlink:href="images/sprite.svg#icon-favorites"></use>
+						</svg>
+					</a>
+					<button class="header__burger" type="button" aria-label="Кнопка открытия меню">
+						<svg class="header__burger-icon" width="36" height="14" aria-hidden="true">
+							<use xlink:href="images/sprite.svg#icon-burger"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="not-found">
+			<div class="container">
+				<h1 class="visually-hidden">Страница не найдена</h1>
+				<div class="not-found__wrapper">
+					<span class="not-found__title">
+						404
+						<span class="not-found__title not-found__title--text">Страница не&nbsp;найдена</span>
+					</span>
+					<span class="not-found__note">
+						Данная страница была удалена или не&nbsp;существовала, но&nbsp;вы&nbsp;всегда можете посмотреть горящие туры
+						и&nbsp;сделать свой отдых незабываемым
+					</span>
+					<button class="not-found__btn btn btn--bg-lilac" type="button">Горящие туры</button>
+						<picture>
+							<source media="(max-width: 767px)" srcset="images/img-404-mobile.webp 1x, images/img-404-mobile@2x.webp 2x">
+							<source media="(max-width: 1023px)" srcset="images/img-404-tablet.webp 1x, images/img-404-tablet@2x.webp 2x">
+							<img class="not-found__img" src="images/img-404.webp" srcset="images/img-404@2x.webp" alt="Девушка смотрит в даль" width="430"
+						height="430">
+						</picture>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
